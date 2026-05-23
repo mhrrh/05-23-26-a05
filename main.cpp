@@ -64,7 +64,7 @@ int main(int argc, char* argv[]) {
     cout << "Do you want to enter more (y/n): ";
     cin >> userChoice;
 
-    if (userChoice == 'y' || userChoice = 'Y'){
+    if (userChoice == 'y' || userChoice == 'Y'){
       int numPeople;
       double avgSlicesPerPerson;
       double costPerPizza;
