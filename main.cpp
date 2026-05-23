@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
         maxTotalCost = totalCost;
       }
     }
-  } while (userChoice == 'y' || userChoice = 'Y');
+  } while (userChoice == 'y' || userChoice == 'Y');
   double averagePizzas = static_cast<double>(totalPizzas) / totalEntries;
 
   cout << "Number of entries: " << totalEntries << endl;
